@@ -33,7 +33,7 @@ public class SwaggerConfiguration {
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("br.com.f1rst.gestao.funcionario.controller"))
                 .paths(PathSelectors.any())
-                .build().apiInfo(apiInfo)
+                .build().apiInfo(apiInfo);
 
 
     }
